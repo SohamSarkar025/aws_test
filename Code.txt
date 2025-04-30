@@ -1,58 +1,6 @@
-//git owner intialization
-git config --global user.name"SohamSarkar025"
-git config --global user.email"srutidhara153@gmail.com"
 
-//Local file to Github Repo
 
-git init
-git add .
-git commit -m "first"
-git remote add origin "http:...."
-git push -u origin master
 
-//Github Repo to Local File
 
-git init
-git add .
-git clone 
-
-//Ec2 - Html File Bitvise Code
-
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install nginx
-
-cd..
-cd var
-cd www
-sudo chmod 777 html
-
-//Ec2 Node File Bitvise Code
-
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install nginx
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-apt-get install nodejs
-git clone https://github.com/SohamSarkar025/aws-github.git
-cd aws-github
-npm install
-node index.js
-
-//Create Security Group Advance Code
-
-#!/bin/bash
-apt-get update
-apt-get upgrade
-apt-get install -y nginx
-systemctl start nginx
-systemctl enable nginx
-apt-get install -y git
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-apt-get install nodejs
-git clone https://github.com/SohamSarkar025/aws-github.git
-cd aws-github
-npm install
-node index.js
 
 
